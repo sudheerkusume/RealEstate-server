@@ -36,6 +36,7 @@ const jobSchema = new mongoose.Schema(
         location: String,
         salary: String,
         category: String,
+        image: String
 
         // 🔑 IMPORTANT
         recruiterId: {
