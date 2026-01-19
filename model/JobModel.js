@@ -36,11 +36,11 @@ const jobSchema = new mongoose.Schema(
         location: String,
         salary: String,
         category: String,
-<<<<<<< HEAD
-        image: String
-=======
+
+
+
         image: String,
->>>>>>> 0a65c24 (add image field to Job model)
+
 
         // 🔑 IMPORTANT
         recruiterId: {
